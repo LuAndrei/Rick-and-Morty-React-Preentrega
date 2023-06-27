@@ -1,0 +1,68 @@
+.nav-container{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+
+}
+.nav-ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.li{
+    color: beige;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.boton-shop{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(7, 128, 33);
+    border: 0;
+    color: #165C5A;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all ease-out 200ms;
+    animation: efecto-texto-luz 3s ease-in infinite normal both;
+    
+}
+
+
+.nav__logo{
+    grid-area: img;
+    opacity: var(--logo-show);
+    border-radius:90%;
+    margin: 0;
+    object-fit: cover;
+    transition: all .5s;
+    overflow: hidden;
+  }
+  
+  
+  
+  
+  .nav__logo:hover {
+      transform: scale(1.2);
+     
+  }
+  
+  .nav__logo--hidden{
+    opacity: var(--logo-hidden);
+  }
+
+
+  
+  
+  
